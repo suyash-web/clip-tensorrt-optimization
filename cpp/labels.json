@@ -1,0 +1,14 @@
+{
+  "labels": [
+    "daytime",
+    "night",
+    "dawn/dusk"
+  ],
+  "prompts": [
+    "A photograph of a road during daytime",
+    "A photograph of a road at night",
+    "A photograph of a road at dawn or dusk"
+  ],
+  "embedding_dimension": 512,
+  "text_embedding_layout": "row_major_float32"
+}

@@ -1,0 +1,13 @@
+source,model,batch_size,run,mean_ms,median_ms,p95_ms,throughput_img_s
+previous_repeated_T4,FP16 TensorRT,1,0,4.017977,4.021680,4.069883,248.881479
+previous_repeated_T4,FP16 TensorRT,1,1,4.021552,4.025904,4.067610,248.660232
+previous_repeated_T4,FP16 TensorRT,1,2,4.013936,4.007664,4.068234,249.131997
+previous_repeated_T4,FP16 TensorRT,32,0,58.102272,58.085375,58.793081,550.752988
+previous_repeated_T4,FP16 TensorRT,32,1,59.375911,59.282272,60.845021,538.939100
+previous_repeated_T4,FP16 TensorRT,32,2,60.711329,60.834881,61.530114,527.084488
+previous_repeated_T4,Mixed INT8/FP16 TensorRT,1,0,3.906603,3.903488,3.940954,255.976875
+previous_repeated_T4,Mixed INT8/FP16 TensorRT,1,1,3.907815,3.902496,3.950797,255.897502
+previous_repeated_T4,Mixed INT8/FP16 TensorRT,1,2,3.908219,3.907776,3.944536,255.871018
+previous_repeated_T4,Mixed INT8/FP16 TensorRT,32,0,60.574309,60.559423,61.510522,528.276763
+previous_repeated_T4,Mixed INT8/FP16 TensorRT,32,1,62.184076,62.170048,63.233724,514.601200
+previous_repeated_T4,Mixed INT8/FP16 TensorRT,32,2,63.794690,63.787041,64.603086,501.609146

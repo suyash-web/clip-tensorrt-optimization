@@ -1,0 +1,35 @@
+{
+  "project": "CLIP TensorRT Optimization",
+  "model": "openai/clip-vit-base-patch16",
+  "dataset": "dronefreak/BDD100K-Period-Classification",
+  "dataset_revision": "47b8bde4a2d808df9208a89cdd10f68b251bcdb4",
+  "reference_gpu": "NVIDIA Tesla T4",
+  "historical_tensorrt_version": "11.4.0.106",
+  "files": {
+    "cpp_source": {
+      "path": "cpp/main.cpp",
+      "bytes": 13439,
+      "sha256": "4b1c71f4d9d82cf9bdec45cc5cd641e08e26ae90490ea8add06d096505d1dca9"
+    },
+    "build_script": {
+      "path": "cpp/build.sh",
+      "bytes": 1080,
+      "sha256": "c2a7b085cbb874cb13f7b5b124eb68ffb39e36fe485f00c2b7c19061b3f2f8ef"
+    },
+    "text_embeddings": {
+      "path": "cpp/text_embeddings_fp32.bin",
+      "bytes": 6144,
+      "sha256": "34740f9aa3177be8d4c0fb3cd638421e465051a8c8eca6ce7ce1998a3777e203"
+    },
+    "cpp_evaluation": {
+      "path": "results/cpp_optimized_final_evaluation.csv",
+      "bytes": 22496,
+      "sha256": "607d4a9f78526fe94dd81a082f490057d4a33e968843302b5ef3bda2d457cc3c"
+    },
+    "reference_benchmarks": {
+      "path": "results/reference_runs.csv",
+      "bytes": 1084,
+      "sha256": "d45d1c1461a1b8600146ec49a670288aad4e0112d436b36aec05949d4559904d"
+    }
+  }
+}
